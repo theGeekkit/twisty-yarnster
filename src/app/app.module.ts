@@ -13,7 +13,7 @@ import { MatInputModule } from '@angular/material/input';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
-
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -32,6 +32,7 @@ import { HeaderComponent } from './header/header.component';
     MatToolbarModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,11 @@
-<app-header></app-header>
+<div [ngStyle]="{backgroundImage: imageUrl}">
+  <app-header></app-header>
+  <mat-toolbar-row>
+    <div>
+      <button id="home" routerLink="/home">Home</button>
+      <button id="store" routerLink="/store">Store</button>
+      <button id="about" routerLink="/about">About</button>
+    </div>
+  </mat-toolbar-row>
+  <router-outlet></router-outlet>
+</div>

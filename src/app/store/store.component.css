@@ -1,0 +1,38 @@
+
+.home {
+  margin-left: 30px;
+  justify-content: left;
+  font-size: 25px;
+  color: rgb(252, 252, 252);
+
+}
+
+h3 {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+.about {
+ font-size: 25px;
+
+}
+
+button {
+  background-color: transparent;
+  color: azure;
+  border: 0px;
+  font-size: 25px;
+}
+.mat-card-image {
+  max-width: 500px;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+.mat-card {
+  background-color: transparent;
+  padding: 10px;
+  border-color: transparent;
+  box-shadow: none;
+}

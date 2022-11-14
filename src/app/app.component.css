@@ -1,0 +1,23 @@
+.mat-toolbar-row {
+  display:flex;
+  flex-wrap: wrap;
+  height: 80px;
+  margin-bottom: 0px;
+  background-color: rgb(128, 255, 251);
+  color: rgb(29, 29, 211);
+  text-shadow: 4px, 4px, 4px, rgb(0, 0, 0);
+}
+
+button {
+  background-color: transparent;
+  color: azure;
+  border: 0px;
+  font-size: 25px;
+}
+
+div {
+
+  background-size: cover;
+  width: 100vw;
+  height:100vh;
+}

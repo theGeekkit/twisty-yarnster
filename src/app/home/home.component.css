@@ -17,14 +17,7 @@
   height: 100%;
 }
 
-.messageContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  color: white;
-}
+
 
 h1 {
   font-size: 70px;
@@ -34,3 +27,41 @@ h1 {
 p {
   font-size: medium;
 } */
+
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  color: white;
+}
+
+h3 {
+  margin-left: 30px;
+  justify-content: left;
+  font-size: 25px;
+  color: rgb(252, 252, 252);
+
+}
+
+.store {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+.about {
+ font-size: 25px;
+
+}
+
+button {
+  background-color: transparent;
+  color: azure;
+  border: 0px;
+  font-size: 25px;
+}
+
+
