@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { StoreComponent } from './store/store.component';
 import { AboutComponent } from './about/about.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -14,14 +13,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { MatCardModule } from '@angular/material/card';
 import { FormsModule } from '@angular/forms';
+import { AuthComponent } from './auth/auth.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     StoreComponent,
     AboutComponent,
-    HeaderComponent
+    HeaderComponent,
+    AuthComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

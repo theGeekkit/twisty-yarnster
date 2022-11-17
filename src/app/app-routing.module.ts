@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
-import { HomeComponent } from './home/home.component';
 import { StoreComponent } from './store/store.component';
+import { AuthComponent } from './auth/auth.component';
+import { AdminComponent } from './admin/admin.component';
+import { AppComponent } from './app.component';
 
 const routes: Routes = [
   {
     path: 'home',
-    component: HomeComponent,
+    component: AppComponent,
   },
   {
     path: 'about',
@@ -16,6 +18,15 @@ const routes: Routes = [
   {
     path: 'store',
     component: StoreComponent,
+  },
+  {
+    path: '', pathMatch: 'full', redirectTo: 'login'
+  },
+  {
+    path: 'auth', component:AuthComponent
+  },
+  {
+    path: 'admin', component: AdminComponent
   },
 ];
 
