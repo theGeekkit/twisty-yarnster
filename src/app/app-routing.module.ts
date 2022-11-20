@@ -4,12 +4,17 @@ import { AboutComponent } from './about/about.component';
 import { StoreComponent } from './store/store.component';
 import { AuthComponent } from './auth/auth.component';
 import { AdminComponent } from './admin/admin.component';
-import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+
 
 const routes: Routes = [
   {
-    path: 'home',
-    component: AppComponent,
+    path: '',
+    component: HomeComponent,
+  },
+  {
+    path: "home",
+    component:HomeComponent,
   },
   {
     path: 'about',
@@ -20,7 +25,7 @@ const routes: Routes = [
     component: StoreComponent,
   },
   {
-    path: '', pathMatch: 'full', redirectTo: 'login'
+    path: 'login', pathMatch: 'full', redirectTo: 'login'
   },
   {
     path: 'auth', component:AuthComponent
