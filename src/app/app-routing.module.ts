@@ -25,13 +25,17 @@ const routes: Routes = [
     component: StoreComponent,
   },
   {
-    path: 'login', pathMatch: 'full', redirectTo: 'login'
+    path: 'login',
+    pathMatch: 'full',
+    redirectTo: 'login'
   },
   {
-    path: 'auth', component:AuthComponent
+    path: 'auth',
+    component:AuthComponent
   },
   {
-    path: 'admin', component: AdminComponent
+    path: 'admin',
+    component: AdminComponent
   },
 ];
 
