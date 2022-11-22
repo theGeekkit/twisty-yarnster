@@ -5,6 +5,10 @@ body {
   background-color: azure;
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
  }
 
 html, body { height: 100%; }
